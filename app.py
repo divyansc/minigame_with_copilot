@@ -8,7 +8,7 @@ def get_computer_choice():
 def get_player_choice():
     player_input = input('Enter your choice: (rock,paper or scissors)').lower()
     while player_input not in ['rock', 'paper', 'scissors']:
-        player_input = input('Invalid choice. Please enter the valid choice: (rock,paper or scissor)').lower()
+        player_input = input('Invalid choice. Please enter the valid choice:').lower()
     return player_input
 
 def get_winner(player_choice, computer_choice):
